@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(6, 10, 50);
+  text-align: center;
+  height: 100vh;
+}
+
+.pic {
+  margin-top: 30px;
+  border-radius: 70px;
+}
