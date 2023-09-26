@@ -1,15 +1,35 @@
 /* Add your code in each class */
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background-color: rgb(31, 2, 31);
+  color: white;
 }
 .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .movie-card {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
 }
 .movie-image {
+  width: 200px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
 }
 .movie-details-container {
 }
 .descriptions {
+  position: absolute;
+  bottom: 0;
 }
 
 /*A gift from us!*/
